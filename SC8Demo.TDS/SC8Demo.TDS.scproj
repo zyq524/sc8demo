@@ -15,10 +15,12 @@
     <SourceWebPhysicalPath>..\SC8Demo.Web</SourceWebPhysicalPath>
     <SourceWebProject>{b97af467-2d65-4558-af66-12cdeeaf683d}|SC8Demo.Web\SC8Demo.Web.csproj</SourceWebProject>
     <SourceWebVirtualPath>/SC8Demo.Web.csproj</SourceWebVirtualPath>
-    <SitecoreDatabase>
-    </SitecoreDatabase>
+    <SitecoreDatabase>master</SitecoreDatabase>
     <Name>SC8Demo.TDS</Name>
     <RootNamespace>SC8Demo.TDS</RootNamespace>
+    <EnableCodeGeneration>false</EnableCodeGeneration>
+    <ManageRoles>False</ManageRoles>
+    <AssemblyStatus>Exclude</AssemblyStatus>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,11 +45,10 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <SitecoreItem Include="sitecore\content.item">
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates.item" />
+    <ProjectReference Include="..\SC8Demo.Web\SC8Demo.Web.csproj">
+      <Project>{b97af467-2d65-4558-af66-12cdeeaf683d}</Project>
+      <Name>SC8Demo.Web</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
 </Project>
