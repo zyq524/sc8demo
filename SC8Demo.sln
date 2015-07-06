@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC8Demo.Web", "SC8Demo.Web\SC8Demo.Web.csproj", "{B97AF467-2D65-4558-AF66-12CDEEAF683D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc8Demo.Core", "Sc8Demo.Core\Sc8Demo.Core.csproj", "{ACAC90F1-0AAB-48A8-9232-077BFD41B025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC8Demo.EXM", "SC8Demo.EXM\SC8Demo.EXM.csproj", "{5566027B-F13F-4755-980F-EE945CD919BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B97AF467-2D65-4558-AF66-12CDEEAF683D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97AF467-2D65-4558-AF66-12CDEEAF683D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97AF467-2D65-4558-AF66-12CDEEAF683D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97AF467-2D65-4558-AF66-12CDEEAF683D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAC90F1-0AAB-48A8-9232-077BFD41B025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAC90F1-0AAB-48A8-9232-077BFD41B025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAC90F1-0AAB-48A8-9232-077BFD41B025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAC90F1-0AAB-48A8-9232-077BFD41B025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5566027B-F13F-4755-980F-EE945CD919BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5566027B-F13F-4755-980F-EE945CD919BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5566027B-F13F-4755-980F-EE945CD919BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5566027B-F13F-4755-980F-EE945CD919BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
