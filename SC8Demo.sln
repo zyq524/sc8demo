@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc8Demo.Core", "Sc8Demo.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC8Demo.EXM", "SC8Demo.EXM\SC8Demo.EXM.csproj", "{5566027B-F13F-4755-980F-EE945CD919BA}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SC8Demo.TDS", "SC8Demo.TDS\SC8Demo.TDS.scproj", "{864AAAE2-EB38-4C1E-865B-5F99B6635A20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{5566027B-F13F-4755-980F-EE945CD919BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5566027B-F13F-4755-980F-EE945CD919BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5566027B-F13F-4755-980F-EE945CD919BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864AAAE2-EB38-4C1E-865B-5F99B6635A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864AAAE2-EB38-4C1E-865B-5F99B6635A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864AAAE2-EB38-4C1E-865B-5F99B6635A20}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{864AAAE2-EB38-4C1E-865B-5F99B6635A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864AAAE2-EB38-4C1E-865B-5F99B6635A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864AAAE2-EB38-4C1E-865B-5F99B6635A20}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
