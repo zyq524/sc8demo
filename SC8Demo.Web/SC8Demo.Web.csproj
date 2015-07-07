@@ -39,6 +39,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.Analytics">
+      <HintPath>..\Libs\Sitecore.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Model">
+      <HintPath>..\Libs\Sitecore.Analytics.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Forms.Core">
+      <HintPath>..\Libs\Sitecore.Forms.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\Libs\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -57,16 +73,35 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClearSession.aspx.cs">
+      <DependentUpon>ClearSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClearSession.aspx.designer.cs">
+      <DependentUpon>ClearSession.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WFFM\SendRegisterConfirmationAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\SC8Demo.Web.config" />
+    <Content Include="ClearSession.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\sc80cm1.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sc8Demo.Core\Sc8Demo.Core.csproj">
+      <Project>{acac90f1-0aab-48a8-9232-077bfd41b025}</Project>
+      <Name>Sc8Demo.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SC8Demo.EXM\SC8Demo.EXM.csproj">
+      <Project>{5566027b-f13f-4755-980f-ee945cd919ba}</Project>
+      <Name>SC8Demo.EXM</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

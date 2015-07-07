@@ -1,0 +1,163 @@
+----item----
+version: 1
+id: {F4319C24-BD2C-4450-93F1-32922FA4EEA4}
+database: master
+path: /sitecore/content/Home/Manager Root/Messages/Self Defined Messages/Register Confirmation
+parent: {DC015407-94DB-4F9A-8D7F-253A5150D748}
+name: Register Confirmation
+master: {F112BDEF-8D86-4CEA-9B9A-8477A582926C}
+template: {078D8A76-F971-4891-B422-76C0BCF9FA03}
+templatekey: AB Test Message
+
+----field----
+field: {09AD7C00-A8DE-46F7-BC54-E7572E38C136}
+name: Body
+key: body
+content-length: 38
+
+{971507B7-3A60-4A7B-97BE-FF7300F1CAAD}
+----field----
+field: {21F2A1E0-AC16-443B-B7A9-83504159F2BB}
+name: Device
+key: device
+content-length: 38
+
+{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}
+----field----
+field: {78F0B1F8-FDF4-4C1C-BEC6-1AC68A210A52}
+name: Campaign
+key: campaign
+content-length: 38
+
+{EE6D88E6-ACDF-498B-A0CB-2EBD7857B5D8}
+----field----
+field: {2BBF5276-ED11-4CD0-946F-66678B524457}
+name: Campaign Position
+key: campaign position
+content-length: 38
+
+{C1B8669B-C41A-4ED3-BF0D-E859CF880D42}
+----field----
+field: {ED5A9033-96ED-41F8-9731-7499C55ECBFA}
+name: Engagement Plan
+key: engagement plan
+content-length: 38
+
+{72C8571D-2AF6-45F1-AC95-98B926251072}
+----field----
+field: {FADE34D8-C101-420D-9620-E4DEB659C36B}
+name: Campaign Group
+key: campaign group
+content-length: 38
+
+{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}
+----field----
+field: {0934BEC4-325A-427B-95BB-46F78CEA9591}
+name: Message Type
+key: message type
+content-length: 7
+
+Trickle
+----field----
+field: {AF0FE26A-A78B-491D-885C-03D95BC17342}
+name: State
+key: state
+content-length: 6
+
+Active
+----field----
+field: {F8D592CC-F3E5-4A8E-A600-8AEBE8CC36E4}
+name: Included Recipient Lists
+key: included recipient lists
+content-length: 38
+
+{BD3EC7A1-34B9-4954-951E-6E6520A1756B}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 22
+
+Network/32x32/news.png
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 145
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{9808DE3B-D902-4B0F-B946-842BCD8C4A05}" /></r>
+----version----
+language: en
+version: 1
+revision: 71795380-b4ce-4ea1-9200-61c76f77cae4
+
+----field----
+field: {8436A90C-85C0-4F16-8373-393C4C0A82C6}
+name: From Name
+key: from name
+content-length: 5
+
+admin
+----field----
+field: {0D844C9C-BD6C-49B8-9475-947DA791F268}
+name: From Address
+key: from address
+content-length: 17
+
+admin@sc80cm1.com
+----field----
+field: {6EC7A9E6-9FD5-4892-BBF6-11E76E0E5DB8}
+name: Start Time
+key: start time
+content-length: 16
+
+20150706T140233Z
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+Register Confirmation
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150706T135727Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+71795380-b4ce-4ea1-9200-61c76f77cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150706T140233Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

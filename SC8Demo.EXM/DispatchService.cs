@@ -16,11 +16,11 @@ namespace SC8Demo.EXM
             Sitecore.Modules.EmailCampaign.Application.Application.Instance.EmailDispatch.SendTriggered(messageId, recipientId, usePreferredLanguage, customPersonTokens);
         }
 
-        public void SendTriggeredMessageToSitecoreUser(Guid messageId, Guid contactId, bool usePreferredLanguage = false,
+        public void SendTriggeredMessageToSitecoreUser(Guid messageId, string userName, bool usePreferredLanguage = false,
         IDictionary<string, object> customPersonTokens = null)
         {
 
-            RecipientId recipientId = RecipientRepository.GetDefaultInstance().ResolveRecipientId("xdb:" + contactId);
+            RecipientId recipientId = RecipientRepository.GetDefaultInstance().ResolveRecipientId("sc:" + userName);
 
             Sitecore.Modules.EmailCampaign.Application.Application.Instance.EmailDispatch.SendTriggered(messageId, recipientId, usePreferredLanguage, customPersonTokens);
         }

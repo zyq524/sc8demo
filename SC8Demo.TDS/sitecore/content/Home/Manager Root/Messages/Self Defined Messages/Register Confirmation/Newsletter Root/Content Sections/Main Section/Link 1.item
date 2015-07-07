@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {4F47CC71-3363-4862-A05B-1B57065A89CF}
+database: master
+path: /sitecore/content/Home/Manager Root/Messages/Self Defined Messages/Register Confirmation/Newsletter Root/Content Sections/Main Section/Link 1
+parent: {6770F932-16F4-4401-918C-7D548A51B076}
+name: Link 1
+master: {F112BDEF-8D86-4CEA-9B9A-8477A582926C}
+template: {4DF80BE6-AE83-40E4-81B4-480F7B60AE15}
+templatekey: Link
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 7e61d098-d743-4283-a7a7-be3bdafc9676
+
+----field----
+field: {6F9EFD52-70BB-4EE0-B7D3-1C8F8E6C4957}
+name: Text
+key: text
+content-length: 6
+
+Link 1
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+Link 1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150706T135727Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7e61d098-d743-4283-a7a7-be3bdafc9676
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150706T135727Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

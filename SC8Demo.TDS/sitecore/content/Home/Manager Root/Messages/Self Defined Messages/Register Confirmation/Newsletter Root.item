@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {971507B7-3A60-4A7B-97BE-FF7300F1CAAD}
+database: master
+path: /sitecore/content/Home/Manager Root/Messages/Self Defined Messages/Register Confirmation/Newsletter Root
+parent: {F4319C24-BD2C-4450-93F1-32922FA4EEA4}
+name: Newsletter Root
+master: {F112BDEF-8D86-4CEA-9B9A-8477A582926C}
+template: {3F12D78C-B7B7-4157-98FC-DA3322EE1A5B}
+templatekey: Message Root
+
+----field----
+field: {9C6106EA-7A5A-48E2-8CAD-F0F693B1E2D4}
+name: __Read Only
+key: __read only
+content-length: 1
+
+1
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 194
+
+{545FA681-19A5-488B-9F2B-AECE411BD7E0}|{0E5C0114-6917-4C36-B77A-B60AA9BFF4E5}|{050C8A20-E616-47A1-85D1-B11A0025F869}|{A4CE4035-5BD0-423E-BC64-1394CB17487B}|{A5B51631-4357-45EE-B2B8-99502F351324}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1500
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{9808DE3B-D902-4B0F-B946-842BCD8C4A05}"><r ds="" id="{153F8C66-033E-456A-9C5F-A98D587C7A7E}" par="" ph="nl-target-item" uid="{E2173298-20F5-416C-8BDF-269AFDE2381A}" /><r cac="1" cnd="" ds="" id="{69EB7A6D-ACEF-4D06-A923-804918AA245E}" mvt="" par="" ph="nl-html-title" uid="{0D647F06-CCD6-4A06-A33E-A5F12649F078}" vbd="1" vbp="1" /><r cac="1" cnd="" ds="{F4AAE459-4FBE-4E92-BE46-12F04554B182}" id="{9A0D5C00-EF39-481F-A124-57632E7EBD2F}" mvt="" par="" ph="nl-header" uid="{75C1DEA5-E95F-4B6F-B99D-CB2D6B73BB55}" vbd="1" vbp="1" /><r cac="1" cnd="" ds="{87427BDA-8540-4D3B-8D64-252A422114A0}" id="{03A3131F-80D2-42D9-AFB4-E01D8D927FEC}" mvt="" par="" ph="nl-top-image" uid="{FA15C3E6-3195-408A-9DD1-5304B0E12D52}" vbd="1" vbp="1" /><r cac="1" cnd="" ds="{6770F932-16F4-4401-918C-7D548A51B076}" id="{CC003124-656D-4380-AF33-1CFC703D4242}" mvt="" par="" ph="nl-body" uid="{010CAE5A-51CA-41FE-BA80-3D4FB3BF1720}" vbd="1" vbdev="0" vbl="0" vbp="1" vbqs="0" vbu="0" /><r cac="1" cnd="" ds="{EB15D5F8-EE1D-4758-B0F4-053354D172DD}" id="{8C20800B-BFB5-4264-9CFF-C156C11840D0}" mvt="" par="" ph="nl-sidebar" uid="{56EC5710-F46B-4287-9824-84ED26C14DA8}" vbd="1" vbdev="0" vbl="0" vbp="1" vbqs="0" vbu="0" /><r cac="1" cnd="" ds="{FFED2274-D3E5-4197-95DA-9A1CE3642A30}" id="{5240D8F0-98DD-4686-8395-CF206427680A}" mvt="" par="" ph="nl-footer" uid="{9C7EA6F7-52B2-4F62-B147-E59F5F160381}" vbd="1" vbp="1" /></d></r>
+----version----
+language: en
+version: 1
+revision: b197445e-d48a-451f-a2c3-9ec069b40099
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+Newsletter Root
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150706T135727Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b197445e-d48a-451f-a2c3-9ec069b40099
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150706T140233Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

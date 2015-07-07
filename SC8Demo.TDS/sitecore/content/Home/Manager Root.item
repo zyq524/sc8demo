@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {62FE9E66-31E2-4E31-91C0-8F3A0F80711B}
+database: master
+path: /sitecore/content/Home/Manager Root
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: Manager Root
+master: {F8FAE92A-4F10-470C-AD5C-7ED9E6B636AF}
+template: {CF9C8A2A-2794-4FEA-980A-EF8426F3D6C3}
+templatekey: Manager Root
+
+----field----
+field: {1B963507-6176-4336-A14D-D5070C3B0286}
+name: Base URL
+key: base url
+content-length: 14
+
+http://sc80cm1
+----field----
+field: {52D572AD-9678-423F-96E2-477528418BA1}
+name: Global Opt-out List
+key: global opt-out list
+content-length: 36
+
+f2b508a3-e58d-488e-846b-3cf82143aedf
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 247
+
+ar|sitecore\ECM Users|pd|^*|+item:read|pe|^*|+item:read|ar|sitecore\ECM Advanced Users|pd|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|pe|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|
+----version----
+language: en
+version: 1
+revision: 00105230-0fd5-48fc-b7e5-6d848a5940a6
+
+----field----
+field: {69AAD409-CA36-4767-B945-ABB77F3611FD}
+name: From Name
+key: from name
+content-length: 5
+
+admin
+----field----
+field: {0F383CD8-C031-4A9D-9ED0-D55217F91287}
+name: From Address
+key: from address
+content-length: 17
+
+admin@sc80cm1.com
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150706T132155Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+00105230-0fd5-48fc-b7e5-6d848a5940a6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150706T132332Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

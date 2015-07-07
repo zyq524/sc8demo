@@ -34,8 +34,16 @@
       <HintPath>..\Libs\Sitecore.Analytics.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sitecore.Analytics.DataAccess">
+      <HintPath>..\Libs\Sitecore.Analytics.DataAccess.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Sitecore.Analytics.Model">
       <HintPath>..\Libs\Sitecore.Analytics.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\Libs\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

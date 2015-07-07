@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {EB15D5F8-EE1D-4758-B0F4-053354D172DD}
+database: master
+path: /sitecore/content/Home/Manager Root/Messages/Self Defined Messages/Register Confirmation/Newsletter Root/Sidebar Sections/Auto Overview
+parent: {488D3D07-2732-44E0-ADDA-A4B52F333D16}
+name: Auto Overview
+master: {F112BDEF-8D86-4CEA-9B9A-8477A582926C}
+template: {D8A016F6-E604-4CA1-BC26-A575AE563141}
+templatekey: Auto Overview
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 4fea807c-dc94-4fee-902c-1938cc7e166a
+
+----field----
+field: {9522F7B2-CE64-41BD-B9F8-7E4C15BD680D}
+name: Title
+key: title
+content-length: 16
+
+Dear $fullname$,
+----field----
+field: {0546A1B2-FE82-4BBF-8527-47D748AFC85A}
+name: Text
+key: text
+content-length: 34
+
+<p>This issue contains the ...</p>
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+Auto Overview
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150706T135727Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4fea807c-dc94-4fee-902c-1938cc7e166a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150706T135727Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
